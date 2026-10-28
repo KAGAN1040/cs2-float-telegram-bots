@@ -1,0 +1,26 @@
+# Personal credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local state (may be shared between bot runs)
+**/sent_ids.json
+**/sent_ids.tmp
+gonderilen_ilanlar.json
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.envrc
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
